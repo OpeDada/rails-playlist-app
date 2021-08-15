@@ -1,6 +1,6 @@
 class ListsController < ApplicationController
 
-  before_action :set_params, only: [:show, :new, :create]
+  before_action :set_params, only: [:show]
 
   def index
     @lists = List.all
@@ -14,7 +14,7 @@ class ListsController < ApplicationController
   end
 
   def create
-    @list = List.new(set_params)
+    @list = List.new(list_params)
     if @list.save
       redirect_to list_path(@list)
     else
@@ -25,7 +25,7 @@ class ListsController < ApplicationController
   private
 
   def list_params
-    params.require(:list).permit(:name, :photos [])
+    params.require(:list).permit(:name, :photo)
   end
 
   def set_params
