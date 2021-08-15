@@ -1,1 +1,9 @@
 // Specific CSS for your home-page
+
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), asset-url('home.jpg');
+  background-color: #f8f5f5bb;
+  margin: 0;
+  margin-right: 0;
+}
