@@ -2,7 +2,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), asset-url('home.jpg');
     background-size: cover;
     color: white;
-    height: 600px;
+    height: 400px;
     width: 100%;
     display: flex;
     background-size: cover;
@@ -16,3 +16,17 @@
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
 }
+
+// .list-banner {
+//     // background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), asset-url('home.jpg');
+//     background-size: cover;
+//     color: white;
+//     height: 600px;
+//     width: 100%;
+//     // display: flex;
+//     background-size: cover;
+//     background-position: 50% 50%;
+//     justify-content: center;
+//     align-items: center;
+//     margin-bottom: 50px;
+// }

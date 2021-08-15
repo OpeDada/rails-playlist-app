@@ -3,7 +3,7 @@
   padding: 8px 24px;
   border-radius: 4px;
   font-weight: bold;
-  background: linear-gradient(#141A60, #0F60C4);
+  background: linear-gradient(#d37cbd, #4680c7);
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
 }
@@ -22,13 +22,48 @@
   z-index: 9;
   }
 
-  .btn-gradient-home {
-  color: white;
+  // .btn-gradient-home {
+  // color: white;
+  // padding: 8px 24px;
+  // border-radius: 4px;
+  // font-weight: bold;
+  // background: linear-gradient(#601460, #0F60C4);
+  // transition: background 0.3s ease;
+  // border: 1px solid #0F60C4;
+  //   margin-top: 100px;
+  // }
+
+  //  .btn-gradient-home:hover {
+  //   color: #F5DE0D
+  //  }
+
+   .btn-gradient-home {
+  // flex: 1 1 auto;
+  margin-top: 100px;
   padding: 8px 24px;
-  border-radius: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
   font-weight: bold;
-  background: linear-gradient(#601460, #0F60C4);
-  transition: background 0.3s ease;
-  border: 1px solid #0F60C4;
-    margin-top: 100px;
-  }
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+ }
+
+/* Demo Stuff End -> */
+
+/* <- Magic Stuff Start */
+
+.btn-gradient-home:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+
+// .btn-1 {
+//   background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+// }
+
+.btn-gradient-home {
+  background-image: linear-gradient(to right, #fbc2eb 0%, #a6c1ee 51%, #fbc2eb 100%);
+}

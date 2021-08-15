@@ -1,6 +1,6 @@
 <div class="buttons">
-  <%= link_to 'Back to All Playlists', lists_path, class: 'btn btn-gradient'%>
-  <%= link_to 'Add to playlist', new_list_bookmark_path(@list), class: 'btn btn-gradient' %>
+  <%= link_to 'Back', lists_path, class: 'btn btn-gradient'%>
+  <%= link_to 'Add to Playlist', new_list_bookmark_path(@list), class: 'btn btn-gradient' %>
 </div>
 <div class="list-card-container">
   <div class="main-list-card">
@@ -10,7 +10,7 @@
       </div>
     <% end %>
   </div>
-  <div class="">
+  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mx-1">
     <% @list.bookmarks.each do |bookmark| %>
       <div class="list-cards">
         <%= image_tag bookmark.song.poster_url, width: '150x300', class: 'image' %>

@@ -1,6 +1,7 @@
 <div class="home-banner flex-column">
   <%= link_to "Create a new playlist 🎧", new_list_path, class: "btn btn-gradient-home" %>
 </div>
+<h3>My Playlists</h3>
 <div class="card-container">
   <% @lists.each do |list| %>
     <% if list.photo.attached? %>
