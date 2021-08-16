@@ -1,5 +1,5 @@
 {
-  "name": "_ope_playlist_app",
+  "name": "rails-playlist-app",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
