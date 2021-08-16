@@ -65,6 +65,6 @@ test:
 #
 production:
   <<: *default
-  database: _ope_playlist_app_production
-  username: _ope_playlist_app
-  password: <%= ENV['_OPE_PLAYLIST_APP_DATABASE_PASSWORD'] %>
+  database: rails-playlist-app_production
+  username: rails-playlist-app
+  password: <%= ENV['RAILS_PLAYLIST_APP_DATABASE_PASSWORD'] %>

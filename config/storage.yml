@@ -1,2 +1,2 @@
-  cloudinary:
+cloudinary:
     service: Cloudinary
