@@ -3,13 +3,11 @@
   <%= link_to 'Add to Playlist', new_list_bookmark_path(@list), class: 'btn btn-gradient' %>
 </div>
 <div class="list-card-container">
-  <div class="main-list-card">
-    <% if @list.photo.attached? %>
-      <div class="card-category-two" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @list.photo.key, height: 300, width: 400, crop: :fill %>')">
-        <h4><%= @list.name %></h4>
-      </div>
-    <% end %>
-  </div>
+  <% if @list.photo.attached? %>
+    <div class="home-banner flex-column" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @list.photo.key%>')">
+      <h4><%= @list.name %></h4>
+    </div>
+  <% end %>
   <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mx-1">
     <% @list.bookmarks.each do |bookmark| %>
       <div class="list-cards">
