@@ -8,13 +8,13 @@
       <h4><%= @list.name %></h4>
     </div>
   <% end %>
-  <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mx-1">
+  <%# <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 g-4 mx-1"> %>
+  <div class="all-list-cards">
     <% @list.bookmarks.each do |bookmark| %>
       <div class="list-cards">
         <%= image_tag bookmark.song.poster_url, width: '150x300', class: 'image' %>
         <div class="card-bookmark-infos">
           <h2>Title: <%= bookmark.song.title %></h2>
-          <%# <%= bookmark.movie.overview %>
           <p>Artist: <%= bookmark.song.artist %></p>
           <p>Comment: <%= bookmark.comment %></p>
           <div class="delete">
