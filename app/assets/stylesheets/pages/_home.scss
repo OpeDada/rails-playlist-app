@@ -46,4 +46,8 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
 }
+h3 {
+  text-align: center;
+  margin: revert;
+}
 }
