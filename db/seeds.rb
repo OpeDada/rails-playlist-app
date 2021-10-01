@@ -16,4 +16,3 @@ Song.create(title: "Wataridori", artist: "Alexandros", poster_url: "https://lh3.
 Song.create(title: "Changed", artist: "Godfrey Golden", poster_url: "https://lh3.googleusercontent.com/TZ1hYJgtid--ayH6H5KSpsgAOnz8UbKJO8wkEwA0lFfIIG7ufv4U5z9sMKf9XyZchx2LQqfcsPqdNtos=w544-h544-s-l90-rj")
 Song.create(title: "God is", artist: "Kanye West", poster_url: "https://lh3.googleusercontent.com/J2oSU6vw-2wolksQfk-NrjUzljrwugnl6TecdTvUt6LHsBaeHhv2ywA1HkqYKzfCCr3ObUUt5Ky3iN9W=w544-h544-l90-rj")
 Song.create(title: "Already", artist: "Beyonce and Shatta Wale", poster_url: "https://olagist.net/wp-content/uploads/2019/07/beyonce-lion-king-the-gift-album.jpg")
-Song.create(title: "Work Shit Out", artist: "Dirty Loops", poster_url: "https://lh3.googleusercontent.com/nSQADKFxkrr0K_udl2CnBMzYTXdwkiSHXl_Zbw-kX2OLDstCjJ4pVVRVR5jWS682R9sC7fIW1bNV4mg=w544-h544-l90-rj")
